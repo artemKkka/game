@@ -1,12 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="sass/style.css">
 </head>
+
 <body>
-    
+    <section class="game">
+        <div class="screen">
+            <h3 class="title">
+                Зіграй гру
+            </h3>
+            <a href="#" class="start" id="start">Почати гру</a>
+        </div>
+        <div class="screen">
+            <h3 class="title">Виберіть час</h3>
+            <ul class="timelist" id="timelist">
+                <li><button class="timebtn" data-time="10">10 секунд</button></li>
+                <li><button class="timebtn" data-time="20">20 секунд</button></li>
+                <li><button class="timebtn" data-time="30">30 секунд</button></li>
+            </ul>
+        </div>
+        <div class="screen">
+            <h3 class="title">
+                Зловіть свою знижку
+            </h3>
+            <h4 class="gametime">
+                Залишилось
+                <span id="time">00:00</span>
+            </h4>
+            <div class="board">
+</div>
+            <button class="new_game">Грати ще</button>
+        </div>
+    </section>
 </body>
+<script src="index.js"></script>
+
 </html>
