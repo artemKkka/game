@@ -61,6 +61,10 @@ ul {
     flex-direction: column;
 }
 
+.screen.up {
+    margin-top: -100vh;
+}
+
 .game {
     // overflow: hidden;
     height: 100vh;
@@ -119,3 +123,4 @@ h4 {
     border-radius: 65px;
     text-decoration: none;
 }
+
