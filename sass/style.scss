@@ -98,6 +98,7 @@ ul {
     border-radius: 60px;
     display: flex;
     margin: 20px;
+    position: relative;
 }
 
 .title {
@@ -124,3 +125,13 @@ h4 {
     text-decoration: none;
 }
 
+.hide {
+    opacity: 0;
+}
+
+.circle {
+    background-image: url('/soccer_ball2\ \(1\).svg');
+    background-size: cover;
+    position: absolute;
+    cursor: pointer;
+}
