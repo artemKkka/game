@@ -3,6 +3,7 @@ const timeList = document.querySelector("#timelist")
 const startButton = document.querySelector("#start")
 const timeElement = document.querySelector("#time")
 const board = document.querySelector("#board")
+const reload = document.querySelector(".new_game")
 
 let time = 0
 let score = 0
@@ -78,3 +79,7 @@ console.log(circle)
 function getRandomNumber(min, max) {
     return Math.round(Math.random()*(max-min)+ min)
 }
+
+reload.addEventListener("click", () =>{
+    location.reload()
+}) 
