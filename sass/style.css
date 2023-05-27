@@ -134,7 +134,7 @@ h4 {
 }
 
 .circle {
-  background-image: url("/soccer_ball2 (1).svg");
+  background-image: url("../soccer.svg");
   background-size: cover;
   position: absolute;
   cursor: pointer;
